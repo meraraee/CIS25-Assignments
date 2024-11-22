@@ -1,6 +1,6 @@
 AUTHOR: Merary Murillo
 
-RECORDING <>
+RECORDING <https://youtu.be/bLlXjAI_chs?si=Fd0nMulxLRxgNcQT>
 
 Project Objective: This project is a simple console-based menu system 
 for a coffee shop called Roast Bean Cafe. The program displays a menu 
