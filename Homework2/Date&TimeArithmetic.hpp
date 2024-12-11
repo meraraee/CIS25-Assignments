@@ -33,6 +33,10 @@ namespace DateTimeArithmetic{
         int getYear() const;
         int getMonth() const;
         int getDay() const;
+        
+        //helper to calculate days in a fixed date
+        int totalDays() const;
+        
     };
 
 
@@ -54,6 +58,9 @@ namespace DateTimeArithmetic{
         int getMinute() const;
         int getSecond() const;
         
+        //helper to calculate total seconds
+        int totalSeconds() const;
+        
     };
 
 
@@ -70,6 +77,10 @@ namespace DateTimeArithmetic{
         
         //method to output format
         void format() const;
+        
+        //method to calculate the difference between the 2 DateTime objects
+        void difference(const DateTime& other) const;
+        
         
     };
 
